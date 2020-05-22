@@ -7,7 +7,8 @@ public class NumberWizard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        printBanner();
+        Debug.Log(getBanner());
+        Debug.Log(getUserNumber(0, 10));
     }
 
     // Update is called once per frame
@@ -16,9 +17,13 @@ public class NumberWizard : MonoBehaviour
         
     }
 
-    void printBanner() {
-        Debug.Log("*************************");
-        Debug.Log("     Welcome to Wizard     ");
-        print("*************************");
+    string getUserNumber(int lowest, int highest) {
+        string template = "Pick a number between: {0} and {1}";
+        string[] data = {lowest.ToString(), highest.ToString()};
+        return string.Format(template, data);
+    }
+
+    string getBanner() {
+        return "Welcome to Wizard";
     }
 }
