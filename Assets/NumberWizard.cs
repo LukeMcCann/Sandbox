@@ -15,30 +15,51 @@ public class NumberWizard : MonoBehaviour
     private int min = 0;
 
     private int guessMax = 0;
+    private int currentGuess = 0;
     private int guessMin = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.max = 1000;
-        this.min = 1;
+        reset();
 
         Debug.Log(getBanner());
-        Debug.Log(getUserNumber(min, max));
+        Debug.Log(guessUserNumber(min, max));
         Debug.Log(guess(getRandomIntBetween(min, max)));
+        Debug.Log("Press ↓ if lower, ↑ if higher, Enter if equal");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.DownArrow)) {
+            guessMax = currentGuess;
+            Debug.Log(guessAgain());
+        } else if(Input.GetKeyDown(KeyCode.UpArrow)) {
+            guessMin = currentGuess;
+            Debug.Log(guessAgain());
+        } else if(Input.GetKeyDown(KeyCode.KeypadEnter)) {
+            string template = "I knew your number was {0} all along!";
+            Debug.Log(string.Format(template, currentGuess));
+        }
     }
 
     // Game Methods
-    private string getUserNumber(int lowest, int highest) {
+    private string guessUserNumber(int lowest, int highest) {
         string template = "Pick a number between: {0} and {1} inclusive.";
         string[] data = {lowest.ToString(), highest.ToString()};
         return string.Format(template, data);
+    }
+
+    private string guessAgain() {
+        if(guessMin > guessMax) {
+            int temp = guessMax;
+            guessMax = guessMin;
+            guessMin = temp;
+        }
+        string template = "Really? Okay then... your number must be {0}?";
+        int rInt = getRandomIntBetween(guessMin, guessMax);
+        return string.Format(template, rInt);
     }
 
     /// <summary>
@@ -47,6 +68,7 @@ public class NumberWizard : MonoBehaviour
     /// <param name="num">the number to guess</param>
     /// <returns>string asking if number is higher or lower</returns>
     private string guess(int num) {
+        this.currentGuess = num;
         string guess = num.ToString();
         string template = "Is your number higher or lower than: {0}?";
         return string.Format(template, guess);
@@ -61,6 +83,12 @@ public class NumberWizard : MonoBehaviour
     private int getRandomIntBetween(int min, int max) {
         System.Random rand = new System.Random();
         return rand.Next(min, max);
+    }
+
+    private void reset() {
+        this.max = 1000;
+        this.min = 1;
+        this.currentGuess = 0;
     }
 
     // Getter/Setters
