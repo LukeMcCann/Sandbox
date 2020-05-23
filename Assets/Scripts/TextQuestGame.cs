@@ -17,19 +17,11 @@ public class TextQuestGame : MonoBehaviour
 
     State state;
 
-    string[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-
     // Start is called before the first frame update
     void Start()
     {
         this.state = this.startingState;
-        this.textComponent.text = state.getStateStory();
-        print("The 4th day is: " + daysOfWeek[4]);
-
-        foreach(string day in daysOfWeek ) {
-            print("Days of the week include: " + day);
-        }
-
+        this.textComponent.text = state.GetStateStory();
     }
 
     // Update is called once per frame

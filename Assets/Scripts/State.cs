@@ -14,13 +14,19 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea(10,14)] [SerializeField] string storyText;
+    [SerializeField] State[] nextStates;
 
     /// <summary>
     /// Gets the storyText of the current State.
     /// </summary>
     /// <returns>string storyText</returns>
-    public string getStateStory() 
+    public string GetStateStory() 
     {
         return this.storyText;
+    }
+
+    public State[] GetNextStates()
+    {
+        return this.nextStates;
     }
 }
