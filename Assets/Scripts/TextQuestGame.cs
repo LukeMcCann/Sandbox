@@ -10,7 +10,7 @@ public class TextQuestGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.textComponent.text = "Welcome Adventurer";
+        this.textComponent.text = "Welcome Adventurer.";
     }
 
     // Update is called once per frame
