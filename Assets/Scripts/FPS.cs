@@ -4,6 +4,16 @@ using System.Diagnostics;
 using System;
 using UnityEngine;
 
+/// Author: Luke McCann
+/// <datecreated>23/05/2020</datecreated>
+/// <summary>
+/// FPS
+/// 
+/// Basic script for printing FPS.
+/// </summary>
+/// <example>
+/// Attach script to a unity object (e.g. camera) and run.
+/// </example>
 public class FPS : MonoBehaviour
 {
     private string fps;
