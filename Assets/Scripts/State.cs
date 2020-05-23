@@ -25,6 +25,10 @@ public class State : ScriptableObject
         return this.storyText;
     }
 
+    /// <summary>
+    /// Gets the next states.
+    /// </summary>
+    /// <returns>State[] containing possible states</returns>
     public State[] GetNextStates()
     {
         return this.nextStates;
