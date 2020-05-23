@@ -19,7 +19,8 @@ public class State : ScriptableObject
     /// Gets the storyText of the current State.
     /// </summary>
     /// <returns>string storyText</returns>
-    public string getStateStory() {
+    public string getStateStory() 
+    {
         return this.storyText;
     }
 }

@@ -13,11 +13,15 @@ using UnityEngine.UI;
 public class TextQuestGame : MonoBehaviour
 {
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    State state;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.textComponent.text = "Welcome Adventurer.";
+        this.state = this.startingState;
+        this.textComponent.text = state.getStateStory();
     }
 
     // Update is called once per frame
