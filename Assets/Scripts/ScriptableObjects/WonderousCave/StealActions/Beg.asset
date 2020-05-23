@@ -10,7 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: StartingZone
+  m_Name: Beg
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You get on your knees and pathetically beg the voice for your life.
+
+
+    "How dare you!" the voice booms.
+
+
+    "You insolent mortal! we do not respect such feeble attempts at self-preservation.
+    You insult our being!"
+
+
+    A searing pain rushes through you, your vision blurs and a blinding llight envelopes
+    your world.... followed by darkness...'
   nextStates: []

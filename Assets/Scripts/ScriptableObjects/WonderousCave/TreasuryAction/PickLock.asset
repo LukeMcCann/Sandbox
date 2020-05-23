@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
+  m_Name: PickLock
+  m_EditorClassIdentifier: 
+  storyText: "You attempt to pick the lock, as you do a door from above opens. A man
+    walks down, dressed in heavy armour and a purple tabard. \nYou frantically try
+    to pull your pick out of the lock, breaking it in the process, as the guard spots
+    you he shouts out.\n \n\"Oi! what are you doin' in there?\"\n\nYou reply....\n\n1.
+    \"Sorry sir, I got lost in this cave, I'm just trying to get out\"\n2. \"Your
+    mother! now let me out!\"\n3. \"Well.. I found this talking cave, stole from the
+    shrine, almost died from a horrific flood, and now I'm here to steal all you have\""
+  nextStates:
+  - {fileID: 11400000, guid: 23337ffceadbe4044a11b4d857fe0054, type: 2}
+  - {fileID: 11400000, guid: 619d328fe747bc948ada6112bf60dac3, type: 2}
+  - {fileID: 11400000, guid: c5f7f3b467ece96489f4bf982fdcb591, type: 2}

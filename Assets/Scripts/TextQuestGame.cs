@@ -27,6 +27,28 @@ public class TextQuestGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+
+    private void ManageState() 
+    {
+        var states = state.GetNextStates();
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            state = states[0];
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            state = states[1];
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            state = states[2];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            state = states[3];
+        }
+        textComponent.text = state.GetStateStory();
     }
 }

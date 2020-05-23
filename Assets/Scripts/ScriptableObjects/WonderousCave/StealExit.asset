@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
+  m_Name: StealExit
+  m_EditorClassIdentifier: 
+  storyText: 'You head down the corridor. As you do you notice the way getting lighter
+    and lighter, you begin to run towards the source and a breeze blows by.
+
+
+    As you take your first steps out of the cave a voice bellows.
+
+
+    "You stole from us, and now you must pay!"
+
+
+    1. Beg for your life
+
+    2. Tell the voice to "Get F*&^!"
+
+    3. Apologise
+
+    4. Run'
+  nextStates:
+  - {fileID: 11400000, guid: e3c7193980bf5b74ebe52864b783fae2, type: 2}
+  - {fileID: 11400000, guid: 19ea69a38d3a0894eabf238ca2479536, type: 2}
+  - {fileID: 11400000, guid: b06c7ce37e7fbd340b446ca28311f0c2, type: 2}
+  - {fileID: 11400000, guid: 5bb01a33ea1563c4c8b92a5e2a9fd57a, type: 2}

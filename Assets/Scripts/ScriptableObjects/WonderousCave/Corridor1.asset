@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: New State
+  m_Name: Corridor1
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You walk down the long corridor, the smell of damp dulls your senses.
+    \n\nAll of a sudden, you feel silk accross your waist. As you are elevated up
+    at breakneck speed you realise you are being reeled in like a fish on a hook.
+    Desparately you attempt to free yourself...\n\nBut to no avail..."
   nextStates: []

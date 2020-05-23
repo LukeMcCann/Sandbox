@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
+  m_Name: WonderousCaveSteal
+  m_EditorClassIdentifier: 
+  storyText: "The earth begings to shake, rocks fall from the ceiling and the treasure
+    turns to dust in your hands. An ocean of blood begins to fill the cave, flushing
+    you through the winds and corridors, deeper and deeper into the abyss. \n\nYou
+    are spat out in a dark room, three entrances lie ahead.\n\n1. Enter the first
+    \n2. Enter the second\n3. Enter the third"
+  nextStates:
+  - {fileID: 11400000, guid: 3a9b934dcf4dee74084db749f861ebd1, type: 2}
+  - {fileID: 11400000, guid: 2b00ae9cff3ca954d93f85c353fdbfb7, type: 2}
+  - {fileID: 11400000, guid: 295d16c8a3e1cb14bb8914b873578927, type: 2}

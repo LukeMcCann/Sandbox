@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: StartingState
+  m_Name: WonderousCave
   m_EditorClassIdentifier: 
-  storyText: 'You awaken in a field, birds chirping, the sun beaming down upon your
-    skin. As you sit up you realise you have no idea where you are... only two paths
-    lay ahead, you pick up your sword
+  storyText: 'Jewels litter the floor, everything shimmers in red, green, blue, and
+    gold. The cave opens up into a monumental shrine depicting the seven gods of this
+    realm.
 
 
-    and...
+    1. Steal from the shrine
 
+    2. Leave without touching anything
 
-    1. Go down the left path
-
-    2. Go down the right path'
+    3. Head back'
   nextStates:
-  - {fileID: 11400000, guid: 1f48f16015a5b1b46a1510c4c09cc453, type: 2}
+  - {fileID: 11400000, guid: e22429a7ca7d7f645874cc101c5be27a, type: 2}
+  - {fileID: 11400000, guid: d81b7d207af87424dbef94c48d074506, type: 2}
   - {fileID: 11400000, guid: 57ca718f632b9e443b3d41b55588de67, type: 2}
