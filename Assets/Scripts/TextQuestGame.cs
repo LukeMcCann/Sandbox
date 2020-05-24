@@ -49,6 +49,22 @@ public class TextQuestGame : MonoBehaviour
         {
             state = states[3];
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            state = states[4];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            state = states[5];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            state = states[6];
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            state = states[7];
+        }
         textComponent.text = state.GetStateStory();
     }
 }

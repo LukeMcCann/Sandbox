@@ -17,4 +17,7 @@ MonoBehaviour:
     unwanted attention. In seconds you find the room filled with guards, all weapons
     aimed at you. \n\nYou...\n\n1. Drop your sword\n2. Shout parley\n3. Run at the
     guards with your sword in hand"
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: cb2a9f933f880c4418f2be20b2e5613f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
+  m_Name: SwingSword
+  m_EditorClassIdentifier: 
+  storyText: "You swing your sword, the bolt sinks deep into your arm. \n\nAs you
+    yelp in pain you are left open.\n\nThe guard ahead of you quickly dashes forward,
+    slicing your throat. Blodd spurts from your mouth, you feel the liquid filling
+    your lungs, the world beginning to fade away as you fall to your knees.\n\nDarkness
+    consumes your world..."
+  nextStates: []
