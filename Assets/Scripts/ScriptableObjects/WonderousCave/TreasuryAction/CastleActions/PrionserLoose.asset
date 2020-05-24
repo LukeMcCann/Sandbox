@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: PrionserLoose
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: '"Oh my, I have not seen anything, I shall remain here, thank you for
+    telling me"
+
+
+    1. Leave
+
+    2. Take hostage'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}

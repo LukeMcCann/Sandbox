@@ -12,5 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: DisguisedExit
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You dress in the guards armour, take his weapons and head out of the
+    dungeon.
+
+
+    As you exit you are confronted with a guard.
+
+
+    "Everythin alrite down there?"
+
+
+    You respond
+
+
+    1. No, a prisoner has escaped!
+
+    2. Yeah, everythings fine'
+  nextStates:
+  - {fileID: 11400000, guid: 1359ade07547d7a4a95efbc08ff985be, type: 2}
+  - {fileID: 11400000, guid: 739ca0184bdf3724bbdaf54997bfdee6, type: 2}

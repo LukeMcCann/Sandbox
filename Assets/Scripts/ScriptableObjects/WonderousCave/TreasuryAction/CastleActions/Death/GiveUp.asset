@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: GiveUp
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You surrender your life to the guard, the world begins to fade as you
+    desperately choke for your last breath....
+
+
+    Darkness consumes you.'
   nextStates: []

@@ -12,5 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: AttackGuard
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You lunge at the guard slamming him into the bars.
+
+
+    The guard quickly overpowers you bringing you to your knees, you feel intense
+    pain as his vice-like grip pierces your collar bone, his metal gloves driving
+    into your flesh. You feel your bone beginning to break, as he forces you to the
+    ground sitting atop of you. You take one blow to the face knocking you bloody
+    and dizzy, another renders you near unconcious.
+
+
+    You feel his hands grasp around your throat as your life begins to drain from
+    you.
+
+
+    1. Fight for your life
+
+    2. Give up'
+  nextStates:
+  - {fileID: 11400000, guid: 851fec8a80b3b1540a3c34178e347cbd, type: 2}
+  - {fileID: 11400000, guid: f7a5b936530c06a4eb51d4d61d18d32c, type: 2}

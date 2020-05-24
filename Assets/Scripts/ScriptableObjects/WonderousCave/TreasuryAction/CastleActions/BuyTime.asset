@@ -12,5 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: BuyTime
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You declare you wish to have final words buying you some time.
+
+
+    As the minutes pass the executioner becomes impatient, the floor falls beneath
+    your feet as the noose tightens around your neck. Suddenly, you drop to the floor,
+    bewildered, you notice guards everywhere rushing to formation. Looking up you
+    see an arrow has cut the rope.
+
+
+    1. Run
+
+    2. Remain where you are'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}

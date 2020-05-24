@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Shout
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You aggressively shout abuse into the darkness. \n\nAn elderly voice
+    can be heard eminating from the perpetual void. \n\n\"That will do you no good
+    friend...\"\n\n1. Try to pick the lock\n2. Pretend to fall ill\n3. Ask who is
+    there"
+  nextStates:
+  - {fileID: 11400000, guid: 2d7ec1b942445324d8c2bc4ad8947595, type: 2}
+  - {fileID: 11400000, guid: 9c624d8d29f47de4990efcd73706b88e, type: 2}
+  - {fileID: 11400000, guid: 792c8d961e4be9640be17b72bf5f99e6, type: 2}

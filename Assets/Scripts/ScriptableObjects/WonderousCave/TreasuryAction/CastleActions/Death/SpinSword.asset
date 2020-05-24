@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: SpinSword
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You  spin your sword in front of you in an attempt to deflect the bolts.\n\nThe
+    first bolt is sliced in half, but follows your blade around, the tip impaling
+    your arm.\n\nThe second bolt is sent flying upwards.\n\nThe third bolt is successfully
+    deflected.\n\nAs you prepare yourself to continue the fight the second arrow falls
+    back down, finding its way into your skull. \nYou fall dizzy, falling to your
+    knees as a weak-sick feeling encompasses you. Your world begins to fade to black
+    as you cough for breath..."
   nextStates: []

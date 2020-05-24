@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: ParryRight
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You swing your sword up to your right in a parry motion, striking the
+    wall.
+
+
+    Fragments of gold fly off the wall, showering the guard as his blade slices through
+    your neck like butter.
+
+
+    You see your own body fall, a warm feeling encompasses you, then... nothing.'
   nextStates: []

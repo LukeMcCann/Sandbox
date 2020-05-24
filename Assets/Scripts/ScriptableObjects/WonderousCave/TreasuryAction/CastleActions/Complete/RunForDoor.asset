@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: RunForDoor
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You run for the door, as you approach the mamoth golden-crested doors
+    two guards stop you, spears at the ready.
+
+
+    You...
+
+
+    1. Draw your sword
+
+    2. Surrender'
+  nextStates:
+  - {fileID: 11400000, guid: 82534b7527c3cff46b94ddb57ce1571b, type: 2}
+  - {fileID: 11400000, guid: a9d7186e401feb6488a95d71094950cd, type: 2}

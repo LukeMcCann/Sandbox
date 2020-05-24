@@ -12,5 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: AldousKey
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You slide the key to Aldous, he inspects it a while, rubs his hands
+    together.
+
+
+    "Well... its worth a try" he proclaims
+
+
+    Aldous sits meditating with the key for what seems like en eternity, just as you
+    begin to think he''s nothing but a crazy old fool a small spark lights up the
+    room, causing the key to glow a sparkly golden colour.
+
+
+    "I guess I do still have some in me" he exclaims "This key will now work in any
+    lock.
+
+
+    He slides the key back over to you
+
+
+    1. Unlock the cell door'
+  nextStates:
+  - {fileID: 11400000, guid: c2f20881c4a10254daab4c8409403230, type: 2}

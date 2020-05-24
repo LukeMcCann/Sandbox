@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: ApologiseAndLeave
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You apologise for the intrusion begging the girl not to alert the guards.
+    \n\nYou slip out of the room back into the hallway. \n\n1. Enter room 1\n2. Enter
+    room 3\n3. Enter room 4\n4. Jump out windows"
+  nextStates:
+  - {fileID: 11400000, guid: 5793620d71a220e49a7d074c7e337512, type: 2}
+  - {fileID: 11400000, guid: cd1ee39a9ac030a4085571f7aac0280c, type: 2}
+  - {fileID: 11400000, guid: 5793620d71a220e49a7d074c7e337512, type: 2}
+  - {fileID: 11400000, guid: 1caafa22093013d45bd9d6df2e486246, type: 2}

@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: KncokOut2
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You hit the guard with the hilt of your sword, knocking him unconscious,
+    swiftly focusing your attention on the final guard. \n\nYou...\n\n1. Cut Down\n2.
+    Knock out"
+  nextStates:
+  - {fileID: 11400000, guid: a121bc2bb17c2de42b1814e873872f27, type: 2}
+  - {fileID: 11400000, guid: f3350ade39e042249ba936fbbe3b2d4e, type: 2}

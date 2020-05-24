@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: AgreeToTerms
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "you agree to the kings terms, he provides you with a horse and weapons.\n\nYou
+    set off riding East, the Dark Forest approaches. \n\nAs you approach the Forest
+    a number of elves can be seen on the outskirts.\n\n\"Kings men are not welcome
+    here! begone!\" an elder declares\n\n1. Threaten\n2. Lie\n3. Massacre"
   nextStates: []

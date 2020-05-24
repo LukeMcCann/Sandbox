@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: CutDown
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You cut the guard down swiftly, focusing your attention to the next
+    guard.
+
+
+    You...
+
+
+    1. Cut down guard
+
+    2. Knockout'
+  nextStates:
+  - {fileID: 11400000, guid: 0282915f0f620e34ba586b2ded0790d6, type: 2}
+  - {fileID: 11400000, guid: 88daf33be7a150e4d84f70969dab8b39, type: 2}

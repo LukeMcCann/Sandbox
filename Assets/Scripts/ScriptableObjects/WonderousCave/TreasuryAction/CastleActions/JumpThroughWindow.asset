@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: JumpThroughWindow
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You jump out of the large windows, smashing through them with force.
+    \n\nAs you remove your arms from over your face you see the distance and panic.\nYou
+    feel as though terminal velocity as been reached as you brace for impact.\n\nYou
+    feel a large thud and rustling, are you alive?\n\nLuckily a haybale broke your
+    fall.\n\n1. Catch your breath\n2. Hide in bale\n3. Get out"
   nextStates: []

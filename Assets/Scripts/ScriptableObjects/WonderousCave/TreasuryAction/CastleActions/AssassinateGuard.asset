@@ -16,4 +16,7 @@ MonoBehaviour:
     muffling his voice with your hand as you do. \n\n\"Gullible fool... \" you mutter
     as you lower his body to the ground.\n\nYou then...\n\n1. Fill your pockets with
     treasure\n2. Attempt to sneak out of the room\n3. Walk out as if you belong there"
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 4a74a2b5f28b62e4581f9cc5f3c3d0a0, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: TryKey
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You try the key in the lock....
+
+
+    With no succes...
+
+
+    1. Try key in lock
+
+    2. Alert other prisoners'
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: da4126697f1a5cf49aaddc7b4ed5a66a, type: 2}

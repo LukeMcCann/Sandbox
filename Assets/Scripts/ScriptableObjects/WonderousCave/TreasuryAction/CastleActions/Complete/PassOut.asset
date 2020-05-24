@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: PassOut
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You pass out, awakening in a dark, damp dungeon, a rat inches from your
+    face.
+
+
+    1. Try to pick the lock
+
+    2. Pretend to fall ill
+
+    3. Shout aggressively'
+  nextStates:
+  - {fileID: 11400000, guid: 2d7ec1b942445324d8c2bc4ad8947595, type: 2}
+  - {fileID: 11400000, guid: 9c624d8d29f47de4990efcd73706b88e, type: 2}
+  - {fileID: 11400000, guid: 6986915adb6f9774d94167ce3ea1b813, type: 2}

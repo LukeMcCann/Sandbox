@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: KillBoy
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You slash your blade accross the boys waist, severing his torso from
+    his legs.
+
+
+    A loud scream can be heard as his sword falls to the floor.
+
+
+    A stern voice can be heard "Enough!".
+
+
+    1. Turn to the voice and lower your sword.
+
+    2. Turn to the voice keeping your sword raised.'
   nextStates: []

@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: ProclaimInnocence
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You proclaim your innocence, the crowd grows restless believing you
+    to be a lair and a traitor. \n\nThey demand your execution now, proclaiming a
+    hanging is too good for you.\n\nThe exectioner complies, unsheathing his sword
+    he slowly drives it into your chest.\n\nYou feel your bones breaking, one by one,
+    the pressure building, seconds feel like minutes, minutes like hours.\n\nThen....
+    nothingness..."
   nextStates: []

@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: EverythingFine
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: '"S''all good then, better get back to ya post"
+
+
+    1. Head to door
+
+    2. Head upstairs'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}

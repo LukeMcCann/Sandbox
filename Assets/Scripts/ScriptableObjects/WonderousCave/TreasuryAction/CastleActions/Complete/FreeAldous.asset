@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: FreeAldous
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "\"Thank you friend, I would not free the others though! they are dangerous
+    criminals from a notorious clan, in here for raiding the local villages\"\n\nYou
+    may keep this key as a token of my appreciation. It may assist you in defeating
+    the king, he has evil magic holding this realm hostage with his dragon. \n\n1.
+    Leave Dungeon"
+  nextStates:
+  - {fileID: 11400000, guid: 93e2916cec06b5b4a8f79ec8f63455bf, type: 2}

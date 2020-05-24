@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: KnockOut3
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "Knocking out the final guard, you gather yourself, wiping any blood
+    from your body.\n\nExiting the treasury you find yourself in the center of a magnificent
+    palace, royal colours paint the walls, with patterned floors of the finest tiles.
+    Servants look to you, cautious after hearing the ruckus but unsuspecting of what
+    exactly occured, you think it best to close the door behind yourself and move
+    away. \n\nYou...\n\n1. Head to the door\n2. Head up the stairs to the right"
+  nextStates:
+  - {fileID: 11400000, guid: ac361f1503aff9b42aaf524809d41641, type: 2}
+  - {fileID: 11400000, guid: eaa0357e61a0f63469b1501f0dc25fcb, type: 2}

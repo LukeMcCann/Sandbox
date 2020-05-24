@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: CutDown3
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You cut down the final guard, running out of the door into the open
+    castle.\n\nServants look at you in terror as you look around, crazy-eyed and covered
+    in blood. \n\nAs the servants panic and flee you are left with a choice. \n\n1.
+    Run for the door\n2. Run up the castle stairs to the right"
+  nextStates:
+  - {fileID: 11400000, guid: a4bed98e0cd5c82408eb74bdf8dcbe30, type: 2}
+  - {fileID: 11400000, guid: 126a882801d4f8c41af3fe9812a6f816, type: 2}

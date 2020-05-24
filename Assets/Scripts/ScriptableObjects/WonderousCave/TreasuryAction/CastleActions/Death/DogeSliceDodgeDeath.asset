@@ -10,7 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: DogeSliceDodge
+  m_Name: DogeSliceDodgeDeath
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You jump to your left evading the first bolt, then to the right.\n\nThe
+    third bolt flies directly at you. \n\nQuickly raising your sword you slice the
+    bolt in half, changing its direction, sending it flying over your shoulder. \n\nYou
+    feel a sharp pain in your stomach, looking down you see a sword, as your eyes
+    move upwards, blood spilling from your mouth and wound, you see the young soldier
+    you disarmed panting and sweating. A warm feeling encompasses you as you fall
+    to your knees, your world fading into darkness..."
   nextStates: []

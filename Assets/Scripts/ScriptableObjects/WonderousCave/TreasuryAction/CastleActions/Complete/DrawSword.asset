@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: DrawSword
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You draw your sword...\n\nServants scream, in seconds you find yourself
+    surrounded by guards once again...\n\nTurning to face them you find yourself outnumbered,
+    dropping to your knees.\n\nyou... \n\n1. Surrender"
+  nextStates:
+  - {fileID: 11400000, guid: a9d7186e401feb6488a95d71094950cd, type: 2}

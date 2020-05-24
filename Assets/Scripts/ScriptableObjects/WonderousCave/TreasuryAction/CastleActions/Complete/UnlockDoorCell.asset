@@ -12,5 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: UnlockDoorCell
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You unlock the cell door.
+
+
+    You take the key and...
+
+
+    1. Free everyone
+
+    2. Free Aldous
+
+    3. Walk away'
+  nextStates:
+  - {fileID: 11400000, guid: 9fa90324387f9ef48bb1430f56ad58a7, type: 2}
+  - {fileID: 11400000, guid: ab06d0493629db946a6f667479b1118d, type: 2}
+  - {fileID: 11400000, guid: 93e2916cec06b5b4a8f79ec8f63455bf, type: 2}

@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Disarm
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You disarm the boy. As his blade falls to the ground you hear the clang
+    of his blade followed by the sound of a bolt being loose in your direction. \n\nYou
+    turn to the sound of the bolts and...\n\n1. Dodge, Dodge, Slice\n2. Spin sword
+    in front of you"
+  nextStates:
+  - {fileID: 11400000, guid: 7dba60e9b23b3904594d03fa1be916a7, type: 2}
+  - {fileID: 11400000, guid: bba221968d4da974a9453f02af64a4a5, type: 2}

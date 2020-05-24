@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Prisoner3
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'The lock clicks and the door swings open.
+
+
+    "I''m free!" the prisoner proclaims, swiftly making his exit.
+
+
+    "What about the rest of us!" Aldous exclaims, however, the prisoner has already
+    made it up the stairs.
+
+
+    1. Wait for morning'
+  nextStates:
+  - {fileID: 11400000, guid: d66ed18c8b14a674e88c773844319344, type: 2}

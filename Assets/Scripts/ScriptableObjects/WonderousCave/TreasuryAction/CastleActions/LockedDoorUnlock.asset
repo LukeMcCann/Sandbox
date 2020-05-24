@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: LockedDoorUnlock
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'The door is locked, you unlock the door and take a peek inside.
+
+
+    This room appears to be nothing but storage.
+
+
+    1. Leave'
+  nextStates:
+  - {fileID: 0}

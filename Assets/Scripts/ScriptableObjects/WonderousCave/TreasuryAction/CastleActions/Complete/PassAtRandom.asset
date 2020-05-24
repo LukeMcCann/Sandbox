@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: PassAtRandom
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You decide to pass the key to each prisoner at random.
+
+
+    The first prisoner to attain the key forces it into his lock, breaking the key.
+
+
+    1. Wait until morning'
+  nextStates:
+  - {fileID: 11400000, guid: d66ed18c8b14a674e88c773844319344, type: 2}

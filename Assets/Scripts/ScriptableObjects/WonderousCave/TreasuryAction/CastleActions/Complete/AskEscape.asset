@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: AskEscape
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You ask him to help you escape. \n\n\"Hahaha, If I could do that don't
+    you think I would already have? I lost my affinity with the gods after they dunked
+    me in devils breath, no more magic from me.\"\n\n1. Pretend to fall ill"
+  nextStates:
+  - {fileID: 11400000, guid: 9c624d8d29f47de4990efcd73706b88e, type: 2}

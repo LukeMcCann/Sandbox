@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Leave
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You leave the room to find guards confronting you.\n\n\"Who are you!
+    what are you doing here!\"\n\nWith weapons pointed at you you have no choice but
+    to surrender. \n\n1. Surrender"
+  nextStates:
+  - {fileID: 11400000, guid: a9d7186e401feb6488a95d71094950cd, type: 2}

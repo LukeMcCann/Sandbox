@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: PrisonerEscape
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You tell the guard a prisoner as escaped. The guard panics and heads
+    into a red-alert scenario, the castle is locked down until the prisoner is found.
+
+
+    "We should go an look upstairs, try an find that scumbag" the guard suggests
+
+
+    1. Go upstairs'
+  nextStates:
+  - {fileID: 0}

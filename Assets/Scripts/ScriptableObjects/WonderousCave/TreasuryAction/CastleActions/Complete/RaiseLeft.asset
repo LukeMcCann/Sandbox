@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "You raise your sword to the left slicing the bolt mid air. \n\nAs you
     approach the first guard he swings is sword towards you from the right!\n\n1.
-    Parry left\n2. Parry right\n3. Parry above\n4. Parry front\n5. Riposte\n6. Lunge\n7.
-    Slash"
-  nextStates: []
+    Parry left\n2. Parry right\n3. Parry above\n4. Parry front\n5. Riposte"
+  nextStates:
+  - {fileID: 11400000, guid: e3f07c013c2c0e44e9e6dc474281d68c, type: 2}
+  - {fileID: 11400000, guid: d0c70993b44ca4740b1444fef20099a5, type: 2}
+  - {fileID: 11400000, guid: 2155a8b09e64cd04eb81655c56816b49, type: 2}
+  - {fileID: 11400000, guid: 18e294882a904114c8ba70dd56a6624a, type: 2}
+  - {fileID: 11400000, guid: 470dde75a32771b469cd0e90f65e10f5, type: 2}

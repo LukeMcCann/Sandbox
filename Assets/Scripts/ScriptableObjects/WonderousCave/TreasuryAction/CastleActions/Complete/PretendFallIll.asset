@@ -12,5 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: PretendFallIll
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You pretend to fall ill, shouting for a guard.
+
+
+    A guard approaches and sees you writihing on the floor. Retrieving his keys he
+    unlocks the cell door.
+
+
+    You...
+
+
+    1. Attack the guard
+
+    2. Play dead'
+  nextStates:
+  - {fileID: 11400000, guid: e6abd420b1be2754c88318b05fc95ba0, type: 2}
+  - {fileID: 11400000, guid: d469137f40578b04aa799abaa9f2d7a7, type: 2}

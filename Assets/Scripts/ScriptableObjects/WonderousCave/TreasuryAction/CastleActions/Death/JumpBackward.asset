@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: JumpBackward
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You jump backward, the bolt flies infront of you ricocheting off the
+    wall towards you once again. \n\nThe end of the bolt appears in your vision, larger
+    and larger.\n\nImmense pain surges from your eye, as you feel warm liquid running
+    down your face.\n\nThe guard ahead of you rushes forward, removing your head with
+    his sword whilst you remain stunned.\n\nYou see your own body fall to the floor,
+    a feeling of warmth encompasses you as your world fades into darkness..."
   nextStates: []

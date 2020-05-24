@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: New State
+  m_Name: ExitDungeon
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You exit the dungeon, grabbing a sword as you leave, being careful to
+    stay hidden. \n\nA guard spots you, the path to the door is blocked, you don't
+    have the energy to fight, so instead you...\n\n1. Run up the stairs"
+  nextStates:
+  - {fileID: 11400000, guid: 126a882801d4f8c41af3fe9812a6f816, type: 2}

@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: FightForLife
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You struggle against the guard, adrenaline begins to fill your system.
+    \n\nYou notice the guards dagger on his belt, quickly grabbing it you jam it into
+    his neck. The guard begins to cough and splutter, briefly standing before toppling
+    over atop of you. Pushing him to one side you stand, attempting to shake off your
+    near-death experience. You must leave before any notice the guard missing.\n\n1.
+    Take guards armour and weapons\n2. Just leave"
+  nextStates:
+  - {fileID: 11400000, guid: b822223c3bfaba140a3077aff4e82ff6, type: 2}
+  - {fileID: 11400000, guid: 93e2916cec06b5b4a8f79ec8f63455bf, type: 2}

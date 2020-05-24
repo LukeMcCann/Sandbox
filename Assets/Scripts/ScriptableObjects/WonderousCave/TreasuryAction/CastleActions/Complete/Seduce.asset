@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Seduce
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You attempt to seduce the girl, she falls for you and invites you to
+    her bed.
+
+
+    A bang on the door, an angry king barges in with guards at hand.
+
+
+    "You! How Dare you! To the Dungeon with you!"
+
+
+    1. Surrender'
+  nextStates:
+  - {fileID: 11400000, guid: a9d7186e401feb6488a95d71094950cd, type: 2}

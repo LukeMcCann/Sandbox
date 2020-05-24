@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: FreeEveryone
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "You unlock the cell door for Prioner 1,2, and 3. \n\nAs you approach
+    Aldous' cell you find yourself tackled to the ground, all three prisoners beating
+    you.\n\nThe key is snatched from your hands by prisoner 3 as the burly prisoner
+    2 smashed your head into the ground, killing you instantly. "
   nextStates: []

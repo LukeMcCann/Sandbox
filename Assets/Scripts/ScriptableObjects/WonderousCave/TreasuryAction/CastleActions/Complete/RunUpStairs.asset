@@ -12,5 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: RunUpStairs
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You run up the stairs to the right, you find youself in a majestic hallway
+    covered in paintings of royals, fancy furniture and large windows.
+
+
+    You...
+
+
+    1. Enter room 1
+
+    2. Enter room 2
+
+    3. Enter room 3
+
+    4. Enter room 4
+
+    5. Jump out of the windows
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 5793620d71a220e49a7d074c7e337512, type: 2}
+  - {fileID: 11400000, guid: aded380d7954a66498f228fc5dada4d5, type: 2}
+  - {fileID: 11400000, guid: cd1ee39a9ac030a4085571f7aac0280c, type: 2}
+  - {fileID: 11400000, guid: 5793620d71a220e49a7d074c7e337512, type: 2}
+  - {fileID: 11400000, guid: 1caafa22093013d45bd9d6df2e486246, type: 2}

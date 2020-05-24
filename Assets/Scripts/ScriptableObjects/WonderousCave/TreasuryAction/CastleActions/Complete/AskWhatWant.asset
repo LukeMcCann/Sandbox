@@ -12,5 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: AskWhatWant
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You ask the king what it is he wants.
+
+
+    "I want you to enter the forest, and remove those pesky elves from my kingdom,
+    they have kidnapped my dragon, restraining my power in their domain, end them
+    and you shall not only be free but handsomely rewarded."
+
+
+    1. Agree to terms
+
+    2. Refuse'
+  nextStates:
+  - {fileID: 11400000, guid: 2010f545eedc8e14cb682dadca2c2afb, type: 2}
+  - {fileID: 11400000, guid: d536c3eeb1957ad4ba6c30e792df7ad2, type: 2}

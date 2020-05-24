@@ -10,7 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: New State
+  m_Name: KillPrincess
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You push the girl over, sitting atop of her, hands around her throat.
+    \n\nYou squeeze until you feel the life draining from her, silently choking, gasping
+    for beath.\n\nThe girl is dead...\n\n1. Leave "
+  nextStates:
+  - {fileID: 11400000, guid: 5b5966153d1fca748a5066dd8c729bcc, type: 2}

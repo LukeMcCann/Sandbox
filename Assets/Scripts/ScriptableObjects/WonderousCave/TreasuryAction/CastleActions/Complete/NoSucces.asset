@@ -10,7 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: Prisoner1
+  m_Name: NoSucces
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You pass the key with no success.
+
+
+    1. Try Again'
+  nextStates:
+  - {fileID: 11400000, guid: 19fbbb1227390d441a9cfb373f64505c, type: 2}

@@ -10,7 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: New State
+  m_Name: Hang
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You attempt to slip the noose and escape, noticing this the executioner
+    pulls the lever.
+
+
+    You feel the floor dissappear form beneath you, tightness around your neck.
+
+
+    As you struggle gasping for breath, struggling to survive, you realise this is
+    it.
+
+
+    Hours pass, and the world fades into darkness as your last breath is drawn...'
   nextStates: []

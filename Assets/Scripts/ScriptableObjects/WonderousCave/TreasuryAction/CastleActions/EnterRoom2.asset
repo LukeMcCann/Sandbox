@@ -12,5 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: EnterRoom2
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You enter the second room.
+
+
+    A beautiful young girl in royal garments stands in front of you.
+
+
+    "Is something wrong officer?"
+
+
+    1. Tell her a prisoner is on the loose
+
+    2. Take her hostage'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}

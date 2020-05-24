@@ -12,5 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: SlashAccross
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You slash accross the guards chest causing his heart to explode form
+    his body.
+
+
+    Soaked in blood you stumble backwards.
+
+
+    You feel a sharp pain in your forehead, followed by a ringing in your ears. Unable
+    to tell whose blood is streaming down your face confusion sets in, you feel weak,
+    passing out on the spot.
+
+
+    1. Pass out'
+  nextStates:
+  - {fileID: 11400000, guid: b1fb5a33716ba3342bf5f98d3e671781, type: 2}

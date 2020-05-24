@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: JumpForward
   m_EditorClassIdentifier: 
-  storyText: 'You jump forward, evading the bolt but impaling yourself upon a guards
-    sword. '
+  storyText: "You jump forward, evading the bolt but impaling yourself upon a guards
+    sword. \n\nBlood spurts from your mouth, regret filling your thoughts as the world
+    fades into darknes..."
   nextStates: []

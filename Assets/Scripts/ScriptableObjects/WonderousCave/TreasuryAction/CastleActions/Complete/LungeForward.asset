@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: LungeForward
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You lunge forward impaling the guard, blood spurts over your face.
+
+
+    Hearing a battle cry to your left you...
+
+
+    1. Yank out the blade spinning it to your left
+
+    2. Take pleasure in ending the guards life'
+  nextStates:
+  - {fileID: 11400000, guid: 62e76b2389bd4ea4b98735a99ebca5c8, type: 2}
+  - {fileID: 11400000, guid: 1b2fb42daa1991b49b84845060dbe6e3, type: 2}

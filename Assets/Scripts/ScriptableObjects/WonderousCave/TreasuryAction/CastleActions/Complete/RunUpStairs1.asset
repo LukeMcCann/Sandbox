@@ -10,7 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: RunUpStairs
+  m_Name: RunUpStairs1
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You run up the stairs, approaching the first guard.
+
+
+    You...
+
+
+    1. Cut down the guard
+
+    2. Knockout the guard'
+  nextStates:
+  - {fileID: 11400000, guid: 7590ecdb07fccfc44a3bde8665d22da2, type: 2}
+  - {fileID: 11400000, guid: 07d9cb1df331cde45b4d2cc526f8617b, type: 2}

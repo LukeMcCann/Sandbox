@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: Refuse
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: '"You refuse? well, how about some time in the dungeons!"
+
+
+    You feel a knock to the back of your head, darkness falls over your vision...
+
+
+    1. Continue
+
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: b1fb5a33716ba3342bf5f98d3e671781, type: 2}

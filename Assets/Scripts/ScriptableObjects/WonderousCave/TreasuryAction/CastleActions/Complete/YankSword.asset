@@ -12,5 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
   m_Name: YankSword
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'You quickly pull the sword from the guards chest, spinning it to the
+    sound of another adversary.
+
+
+    A young boy runs towards you, face filled with a mixture of rage and fear.
+
+
+    You block his first swing, but then you...
+
+
+    1. Kill
+
+    2. Knockout
+
+    3. Disarm'
+  nextStates:
+  - {fileID: 11400000, guid: 2fbde06964fcceb4d98ba21e604b7b8a, type: 2}
+  - {fileID: 11400000, guid: bb3477c4cdc3dea49b56b34e6622a9db, type: 2}
+  - {fileID: 11400000, guid: ad2e1eeaea44ca84099f9d1f69a92fee, type: 2}

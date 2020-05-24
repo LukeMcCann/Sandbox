@@ -10,7 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a5bcf8767293045be3e25ea4faade4, type: 3}
-  m_Name: New State
+  m_Name: ParryAbove
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: 'You swing your sword upwards in a parry motion, missing the blade but
+    slicing up the guards chest.
+
+
+    As your head fills with relief you feel the momentum of the guards blade slicing
+    through your neck, stopping midway.
+
+
+    In tremendous pain you feel your head tilting to the side, unable to control it.
+    Panic fills your mind as you begin to feel a warm liquid filling your lungs. You
+    see the guard fall to the ground, entrails leaking from his body, as the world
+    around you slowly fades into darkness...'
   nextStates: []
